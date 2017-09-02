@@ -3,7 +3,7 @@
 *   Copyright (C) Jiehun.com.cn 2016 All rights reserved.
 *
 *   FileName      ：cli.php
-*   Author        ：qiaoxin
+*   Author        ：johson
 *   Email         ：qiaoxin@jiehun.com.cn
 *   Date          ：2016/05/17 13:05:33
 *   Version       ：1.0
