@@ -29,5 +29,5 @@ function niubi($n) {
 
 
 
-echo sum(19);echo "\n\n";
+echo sum(19);
 echo sum(19);
