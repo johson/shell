@@ -11,17 +11,14 @@ func main() {
 
 	// fmt.Println(IsIdCard("610524199605187211"))
 	// fmt.Println(IsIdCard("610524199610187211"))
-	var (
-		id  string
-		res string
-	)
+	var id string
 	for {
 		fmt.Print("请输入身份证号!\n")
 		fmt.Scanln(&id)
 		if IsIdCard(id) {
-			fmt.Printf("%s -> %s\n", id, "✅正确")
+			fmt.Printf("%s -> %s\n\n", id, "✅正确")
 		} else {
-			fmt.Printf("%s -> %s\n", id, "❌错误")
+			fmt.Printf("%s -> %s\n\n", id, "❌错误")
 		}
 	}
 }
