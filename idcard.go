@@ -19,11 +19,10 @@ func main() {
 		fmt.Print("请输入身份证号!\n")
 		fmt.Scanln(&id)
 		if IsIdCard(id) {
-			res = "✅"
+			fmt.Printf("%s -> %s\n", id, "✅正确")
 		} else {
-			res = "❎"
+			fmt.Printf("%s -> %s\n", id, "❌错误")
 		}
-		fmt.Printf("idcard: %s %s\n\n", id, res)
 	}
 }
 
